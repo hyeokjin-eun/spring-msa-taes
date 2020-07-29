@@ -1,0 +1,16 @@
+server:
+  port: 8095
+security:
+  oauth2:
+    client:
+      client-id: auth_id
+      client-secret: auth_secret
+    resource:
+      jwt:
+        key-value: jwt_secret_key
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console

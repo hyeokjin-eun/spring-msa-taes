@@ -3,4 +3,5 @@ include 'msa-web'
 include 'msa-eureka'
 include 'msa-user'
 include 'msa-zuul'
+include 'msa-auth'
 
